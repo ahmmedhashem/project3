@@ -1,0 +1,30 @@
+@media(max-width:767px)
+{
+	.navbar-inverse .navbar-nav > li > a
+	{
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+	{
+		max-height: none;
+	}
+	button, input, optgroup, select, textarea
+	{
+		margin: 10px auto;
+	}
+	.end
+	{
+		text-align: center;
+	}
+}
+
+/***********************about us****************************/
+@media(min-width:768px) and (max-width:991px)
+{
+	.about-cio > img
+	{
+		width: 300;
+		height: 110%;
+	}
+}

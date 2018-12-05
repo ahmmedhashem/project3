@@ -1,0 +1,223 @@
+
+/*start section tool box*/
+.option-box{position: fixed;left: 0;top: 71px;z-index: 9999;}
+.option-box .color-option
+{
+	float: left;
+	background:#333;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+	display: none;
+}
+.option-box .color-option ul li
+{
+	width: 20px;
+	height: 20px;
+	background: #f00;
+	display: inline-block;
+	margin-right: 3px;
+	cursor: pointer;
+	overflow: hidden
+}
+.option-box .gear-check{padding: 5px;color: #fff;cursor: pointer}
+/*End section tool box*/
+/****** overriding bootstrap in navbar ******/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{padding-bottom: 25px;padding-top: 25px;}
+.navbar-inverse .navbar-toggle{margin-top: 20px}
+.navbar-inverse .navbar-nav > li > a{padding-bottom: 25px;padding-top: 25px}
+.navbar-inverse{min-height: 70px;}
+.navbar-inverse .navbar-brand{font-size: 30px;line-height: 40px}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{color: #fff;padding-left: 30px}
+.navbar-nav > li > .dropdown-menu{background-color: #333;min-width: 200px}
+.dropdown-menu > li > a
+{
+	color: #fff;
+	padding: 6px 20px;
+	transition: padding .5s ease;
+}
+
+.navbar-right .dropdown-menu /*ع اضبط ال dropdown list تححت اللينك*/{right: auto;left: 0}
+/*end overridding*/
+/* end of navbar*/
+
+/* start carousel*/
+/*start overridding bootstrap in carousel*/
+.carousel .item img{min-height: 500px}
+.carousel-caption{padding-bottom: 127px}
+carousel-caption.lead{color: lightyellow;}
+.carousel-indicators li{width: 15px;height: 12px}
+/*end overridding bootstrap in carousel*/
+
+/*start section class about*/
+.about .lead{color: #82827d;}
+
+.about{padding-top: 30px;padding-bottom: 30px;margin-top: 30px;overflow: hidden}
+.about h1{font-weight: bold}
+/*end section class about*/
+
+/*start section class features*/
+.features{background-color: #ddd;padding-top: 15px;overflow: hidden}
+.features .container h2{padding-top: 30px;padding-bottom: 40px}
+.features .container span{font-size: 24px}
+.features .container p{line-height: 2;padding-bottom: 30px}
+/*end section class features*/
+
+/*start section class testimonial*/
+.testimonial .lead{line-height: 33px;margin-bottom: 10px}
+.testimonial{margin-top: 20px;overflow: hidden}
+.testimonial h2{margin-bottom: 40px}
+.carousel-indicators li{margin-top: 20px}
+.testimonial span{font-size: 18px;font-weight: bold;}
+.testimonial .carousel-inner{min-height: 134px}
+.testimonial .carousel-indicators{position: static;margin-left: auto;width: 100%;padding-top: 20px}
+.testimonial .carousel-indicators li
+{
+	text-indent: 0;
+	 width: 80px;
+	 height: 80px;
+	background: none;
+	margin-left: 10px;
+	opacity: 0.4;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	transition: all 1s ease
+}
+.testimonial .carousel-indicators li.active{width: 80px;height: 80px;background: none;opacity: 1;border-radius: 50%;}
+.testimonial .carousel-indicators li img{max-width: 100%;border-radius: 50%;overflow: hidden;width: 80px;height: 80px}
+/*end section class testimonial*/
+
+/*start section class price table*/
+.price_table{background-color: #EEE;margin-top: 40px;margin-bottom: 0px;overflow: hidden}
+.price_table h2{padding-top: 20px}
+.price_table .price{background-color: #fff;margin-bottom: 50px;}
+.price_table .price h2{padding-top: 10px}
+.price_table .price p
+{
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #f3f3f3;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	transition-duration: 0.7s;
+	border: 2px solid #fff	
+}
+.price_table .price:hover p{transform: scale(1.1,1.1) rotate(360deg);border: 2px solid #dfdfdf}
+.price_table .price ul{line-height: 40px}
+.price_table .price a{margin-bottom: 20px}
+/*end section class price table*/
+
+/*start section class our team*/
+.our_team
+{
+	background: url("9440452999312Programing.jpg") no-repeat  center center fixed;
+	background-size: cover;
+	min-height: 600px;
+	overflow: hidden
+}
+.our_team h2{color: white;padding: 20px;margin-bottom: 50px;}
+.our_team .cover{background: rgba(2,2,2,0.8);color: #fff;min-height: 600px;padding-bottom: 40px;padding-top: 40px;}
+.our_team .person{margin-bottom: 40px}
+/*end section class our team*/
+
+/* start section class subscribe*/
+.subscribe{background-color: #EEE;padding-top: 40px;padding-bottom: 70px;overflow: hidden}
+.subscribe h2 {margin-bottom: 20px;color: dimgray}
+.subscribe p {margin-bottom: 40px}
+.subscribe .form-inline .form-control {border-radius: 0;width: 300px	}
+
+.subscribe form button {border-radius: 0;margin-left: -5}
+/*end section class subscribe */
+
+/*start section class stat*/
+.stat
+{
+	background: url(Golden_ratio-1464295261.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 400px;
+	overflow: hidden
+}
+.stat .data {background: rgba(2,2,2,0.7);min-height: 400px;color: #b6b5b5;}
+.stat .data .statistics
+{
+	transition: all .5s ease-in-out;
+	margin-bottom: 70px
+}
+.stat .data .statistics:hover {color: #fff}
+
+.stat .data h2 {padding-top: 30px;margin-bottom: 50px}
+.stat .data p {font-size: 25px;font-weight: bold;margin-bottom: 0}
+
+/*end section class stat*/
+
+/*start class our skills*/
+.our_skills {padding-top: 40px;padding-bottom: 70px;overflow: hidden}
+.our_skills h2 {margin-bottom: 50px}
+.our_skills h3 {font-weight: bold;margin-top: 0}
+.our_skills .progress {height: 36px}
+.our_skills .progress-bar {line-height: 36px;text-align: left;text-indent: 10px;font-weight: bold}
+/*end class our skills*/
+
+/*start section contact us*/
+.contact_us
+{
+	background: url(programming-1200.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 400px;
+	overflow: hidden
+}
+.contact_us .cont_cover {background: rgba(2,2,2,0.5);min-height: 400px;color: #ddd}
+.contact_us .container {padding-top: 40px;padding-bottom: 40px}
+.contact_us textarea {height: 107px}
+.contact_us input,.contact_us textarea {background: rgba(82,78,78,0.5);border: none;color: #fff}
+/*end section contact us*/
+
+/*start class our clients*/
+.our_clients {background: #fff;padding-top: 20px;padding-bottom: 20px;overflow: hidden}
+.our_clients img {opacity: 0.5;margin-top: 20px;margin-bottom: 20px}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{height: 100px}
+/*end class our clients*/
+
+/*start section footer*/
+.footer{background-color: #333;color: #AAA;overflow: hidden}
+.footer h3 {padding: 20 0;letter-spacing: 1px}
+.footer .three {overflow: hidden}
+.footer .three li{width: 33.3333%;float: left;margin-bottom: 10px}
+.footer .all img {border-radius: 50%}
+.footer .all {overflow: hidden}
+.footer .all li
+{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	opacity: 0.7;
+	transition: all 0.5s ease-in-out;
+}
+.footer .all li:hover{opacity: 1}
+.footer .media {margin-bottom: 20px}
+.footer .img-thumbnail {background: rgba(0,0,0,0.2);border: 1px solid #444;margin-bottom: 5px}
+.footer .copy {background-color: #101010;width: 100%;padding: 15px}
+
+/*End section footer*/
+
+/*start section scroll-top*/
+.scroll-top
+{
+	color: #ccc;
+	width: 56px;
+	height: 47px;
+	position: fixed;
+	bottom: 10;
+	right: 0;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+/*end section scroll-top*/
+
+/**************************************************** start groping ***********************************************************/

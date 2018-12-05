@@ -1,0 +1,568 @@
+<html>
+	<head>
+		<title>vavbar</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap3.css">
+		<link rel="stylesheet" href="css/animate.css"><!--for wow animate-->
+		<link rel="stylesheet" href="css/default-color.css">
+		<link rel="stylesheet" href="css/hover.css"><!--for hover animation-->
+		<link rel="stylesheet" href="css/media-query.css">
+	</head>
+	<body>
+		
+		<!-- start navbar -->
+		<nav class="navbar navbar-fixed-top navbar-inverse ">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display دي ع شاشه الموبايل يبقي ف زرار اضغط عليه ع يجيب القائمه-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><!--data-target بتاع الحاجه الي هتتفتح لما اضغط ع الزرار idدي بتاخد ال-->
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> TheH <span>Inc.</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right"><!--navbar-right ع تروح ع اليمين  -->
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">serveses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">programing</a></li>
+            <li><a href="#">web design</a></li>
+            <li><a href="#">desktop</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">web hosting</a></li>
+          </ul> 
+        </li>
+		  <li><a href="#">map</a></li>
+		  <li><a href="#">content</a></li>
+      </ul>
+		
+	  <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+		
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container end -->
+</nav>
+	<!-- end navbar -->
+		<!--start section tool box-->
+	<section class="option-box">
+		<div class="color-option">
+			<h4>Color Option</h4>
+			<ul class="list-unstyled">
+				<li data-value="css/default-color.css"></li>
+				<li data-value="css/move-color.css"></li>
+				<li data-value="css/vivid-cyan-color.css"></li>
+				<li data-value="css/yellow-color.css"></li>
+				<li data-value="css/blue-color.css"></li>
+			</ul>
+		</div>
+		<i class="fa fa-cog fa-2x gear-check"></i>
+	</section>
+		<!--End section tool box-->
+		<!-- start carousel -->
+<div id="myslide" class="carousel slide" data-ride="carousel">
+  <!-- Indicators  دي النقط الي بتبقي ف السلايد تحت بعدد السلايد -->
+  <ol class="carousel-indicators">
+    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+    <li data-target="#myslide" data-slide-to="1"></li>
+    <li data-target="#myslide" data-slide-to="2"></li>
+	<li data-target="#myslide" data-slide-to="3"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active"><!--item   دي السلايد الواحده بحط فيها صور ونص -->
+      <img src="images/icons/New folder/images%20(1).jpg" alt="error" width="100%" max-height="100px">
+      <div class="carousel-caption">
+        <h2 class="h1">programming</h2>
+		<p class="lead">instructions that tell a computer how to perform a task. Programming can be done using a variety of computer "languages," such as SQL, Java, Python, and C++.
+		</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/icons/New%20folder/25277-banner-v57e0538213849.jpg" alt="error"  width="100%" max-height="100px">
+      <div class="carousel-caption">
+        <h2 class="h1">web design</h2>
+		<p class="lead">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development</p>
+      </div>
+    </div>
+	<div class="item">
+      <img src="images/icons/New%20folder/base_2.jpg" alt="error"  width="100%" max-height="100px">
+      <div class="carousel-caption">
+        <h2 class="h1">desktop</h2>
+		<p class="lead">desktop for English Language Learners. : the top surface of a desk. : a computer that is designed to be used on a desk or table : a desktop computer. : an area or window on a computer screen in which small pictures (called icons) are arranged like objects on top of a desk</p>  
+      </div>
+    </div>
+	<div class="item">
+      <img src="images/icons/New%20folder/images.jpg" alt="error"  width="100%" max-height="100px">
+      <div class="carousel-caption">
+        <h2 class="h1">web hosting</h2>
+		  <p class="lead">A web host, or web hosting service provider, is a business that provides the technologies and services needed for the website or webpage to be viewed in the Internet. Websites are hosted, or stored, on special computers called servers. ... If you do not have a domain, the hosting companies will help you purchase one</p>
+      </div>
+    </div>
+  </div>
+  <!-- Controls => the arrow next and prevous-->
+  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		
+<!-- Start section about-->	
+		<!--offset => distance to start animation (related to the browser bottom) , iteration =>the number of repeat -->
+<section class="about text-center wow bounceIn" date-wow-duration="2s" data-wow-delay="0s" data-wow-offset="300" data-wow-iteration="1">
+	<div class="container">
+		<h1>meet our new template <span>TheH inc.</span></h1>
+		<p class="lead">hello let me introduce our template think & learn. created with all the love with <strong>bootstrap3</strong></p>
+	</div>
+</section>
+<!-- start section our feature-->
+<section class="features">
+	<div class="container text-center">
+		<h2>Our Features</h2>
+		<div class="col-lg-3 col-md-6">
+			<div class="hvr-wobble-top wow bounceInLeft" date-wow-duration="2s" data-wow-offset="200">
+				<span class="glyphicon glyphicon-ok"></span>
+				<h4>100% Responsive</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="hvr-wobble-top wow bounceInUp"  date-wow-duration="2s" data-wow-offset="200">
+				<span class="glyphicon glyphicon-thumbs-up"></span>
+				<h4>Retina Ready</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="hvr-wobble-top wow bounceInDown"  date-wow-duration="2s" data-wow-offset="200">
+				<span class="glyphicon glyphicon-eye-open"></span>
+				<h4>Awesome Display</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="hvr-wobble-top wow bounceInRight"  date-wow-duration="2s" data-wow-offset="200">
+				<span class="glyphicon glyphicon-pencil"></span><!--دي بجيبها من الموقع-->
+				<h4>Well Documented</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+	</div>
+</section>
+		<!--start testimonial carousel-->
+<section class="testimonial text-center wow flipInY"  date-wow-duration="1s" data-wow-offset="400">
+	<div class="container">
+		<h2>what our clients say</h2>
+		<div id="says" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators  دي النقط الي بتبقي ف السلايد تحت بعدد السلايد -->
+			  
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+					<div class="item active"><!--item   دي السلايد الواحده بحط فيها صور ونص -->
+						<p class="lead">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development</p>
+						<span>Aya Mahmoud</span>
+					</div>
+					<div class="item">
+						<p class="lead">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development</p>
+						<span>Mohamed Ali</span>
+					</div>
+					<div class="item">
+						<p class="lead">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development</p>
+						<span>Ali Ibrahim</span>
+					</div>
+					<div class="item">
+						<p class="lead">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development</p>
+						<span>Sara Elsayed</span>
+					</div>
+			  </div>
+			  <ol class="carousel-indicators">
+				  <li data-target="#says" data-slide-to="0" class="active">
+					  <img src="images/scarlett-johansson-profile.png">
+				  </li>
+				  <li data-target="#says" data-slide-to="1">
+					  <img src="images/download%20(2).jpg">
+				  </li>
+				  <li data-target="#says" data-slide-to="2">
+					  <img src="images/download.jpg">
+				  </li>
+				  <li data-target="#says" data-slide-to="3">
+					  <img src="images/b932ff3dc219bd2adc22b412110f9ca2--flat-design-design-illustrations.jpg">
+				  </li>
+			  </ol>
+	  </div>
+	</div>	
+</section>	
+		<!--end testimonial carousel-->
+		<!--start section price table-->
+	<section class="price_table text-center">
+		<div class="container">
+			<h2>Our Amazing Prices</h2>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="price wow fadeInUp"  date-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-primary">Hosting</h2><!-- class="text-primary" take the same color as button-->
+						<p class="center-block">$40</p>
+						<ul class="list-unstyled">
+							<li>space : 30GB</li>
+							<li>Emails : 20</li>
+							<li>Ips : 2ip</li>
+							<li>Databases : 10</li>
+							<li>FtpAccounts : 5</li>
+						</ul>
+						<a href="#" class="btn btn-primary">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price wow fadeInDown"  date-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-success">Vps</h2>
+						<p class="center-block">$40</p>
+						<ul class="list-unstyled">
+							<li>space : 50GB</li>
+							<li>Emails : 40</li>
+							<li>Ips : 5ip</li>
+							<li>Databases : 20</li>
+							<li>FtpAccounts : 10</li>
+						</ul>
+						<a href="#" class="btn btn-success">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price wow fadeInUp"  date-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-info">Dedicated</h2>
+						<p class="center-block">$40</p>
+						<ul class="list-unstyled">
+							<li>space : 80GB</li>
+							<li>Emails : 40</li>
+							<li>Ips : 8ip</li>
+							<li>Databases : 30</li>
+							<li>FtpAccounts : 2</li>
+						</ul>
+						<a href="#" class="btn btn-info">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price wow fadeInDown"  date-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-danger">Cloud</h2>
+						<p class="center-block">$40</p>
+						<ul class="list-unstyled">
+							<li>space : 90GB</li>
+							<li>Emails : 50</li>
+							<li>Ips : 10ip</li>
+							<li>Databases : 50</li>
+							<li>FtpAccounts : 50</li>
+						</ul>
+						<a href="#" class="btn btn-danger">Order Now</a>
+					</div>
+				</div>
+				</div>
+		</div>
+	</section>	
+		<!--end section price table-->
+		<!--start section ourteam-->
+		<section class="our_team text-center">
+			<div class="cover">
+				<div class="container">
+					<h2>Meet Our Awesome Team</h2>
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="person wow pulse"  date-wow-duration="1s" data-wow-offset="400">
+								<img class="img-circle" src="images/chris.jpg">
+								<h3>chris coyier</h3>
+								<p>this is cris coyer the founder of the amazing website css.tricks</p>
+								<i class="fab fa-facebook fa-lg"></i>
+								<i class="fab fa-google-plus fa-lg"></i>
+								<i class="fab fa-twitter fa-lg"></i>
+								<i class="fab fa-youtube fa-lg"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="person wow pulse"  date-wow-duration="1s" data-wow-offset="400">
+								<img  class="img-circle" src="images/images%20(2).jpg">
+								<h3>leah culver</h3>
+								<p>this is amazing hacker woman with a much knowledge in hacking system</p>
+								<i class="fab fa-facebook fa-lg"></i>
+								<i class="fab fa-google-plus fa-lg"></i>
+								<i class="fab fa-twitter fa-lg"></i>
+								<i class="fab fa-youtube fa-lg"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="person wow pulse"  date-wow-duration="1s" data-wow-offset="400">
+								<img  class="img-circle" src="images/Steve-Jobs-documentary-hits-theaters-and-video-on-demand-today.jpg">
+								<h3>csteve jobs</h3>
+								<p>this the man who change the world with his apple products</p>
+								<i class="fab fa-facebook fa-lg"></i>
+								<i class="fab fa-google-plus fa-lg"></i>
+								<i class="fab fa-twitter fa-lg"></i>
+								<i class="fab fa-youtube fa-lg"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="person wow pulse"  date-wow-duration="1s" data-wow-offset="400">
+								<img  class="img-circle" src="images/200px-Marissa_Mayer,_2011_Interview_(crop).jpg" height="200px" width="200px">
+								<h3>marissa mayer</h3>
+								<p>this is amazing hacker woman with a much knowledge in hacking system</p>
+								<i class="fab fa-facebook fa-lg"></i>
+								<i class="fab fa-google-plus fa-lg"></i>
+								<i class="fab fa-twitter fa-lg"></i>
+								<i class="fab fa-youtube fa-lg"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end section ourteam-->
+		<!--start section subscribe-->
+		<section class="subscribe text-center">
+			<div class="container wow fadeInUp" date-wow-duration="1s" data-wow-offset="400">
+				<h2>keep in touch</h2>
+				<p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+				<form class="form-inline">
+					<input class="form-control input-lg" type="text" placeholder="write your e-mail"><!-- ع انسق ال form-->
+					<button class="btn btn-danger btn-lg"><i class="fa fa-edit"></i>Subscribe</button>
+				</form>
+			</div>
+		</section>
+		<!--end section subscribe-->
+		<!--start section statistics-->
+		<section class="stat text-center">
+			<div class="data">
+				<div class="container">
+					<h2>Our Main Statistics</h2>
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="statistics">
+								<i class="fa fa-users fa-5x"></i>
+								<p>9,500</p>
+								<span>Satisfied User</span>		
+						    </div>
+					   </div>
+						<div class="col-md-3 col-sm-6">
+							<div class="statistics">
+								<i class="fa fa-comments fa-5x"></i>
+								<p>25,000</p>
+								<span>Posted Comments</span>
+						    </div>
+					   </div>
+						<div class="col-md-3 col-sm-6">
+							<div class="statistics">
+								<i class="fa fa-suitcase fa-5x"></i>
+								<p>3,500</p>
+								<span>Projects Done</span>
+						    </div>
+					   </div>
+						<div class="col-md-3 col-sm-6">
+							<div class="statistics">
+								<i class="fa fa-life-ring fa-5x"></i>
+								<p>95,000</p>
+								<span>Tickets Archieved</span>
+						    </div>
+					   </div>
+				   </div>		
+				</div>
+			</div>		
+		</section>
+		<!--end section statistics-->
+		
+		<!--start section our skills-->
+		<section class="our_skills">
+			<div class="container">
+				<h2 class="text-center">Our Skills</h2>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="aaaaa">
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">Html/Html5</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">Css/Css3</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">Javascript/JQuery</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">bootstrab3/bootstrab4</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<div class="bbbbb">
+							<h3>About The Team</h3>
+							<p class="lead">These agencies offer the very best when it comes to web design and have some of the most talented designers in the world. They’ll work with your company to provide a website that outlines and presents your brand in a way.  </p>
+							<button type="button" class="btn btn-danger">Talk With A Professional</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end section our skills-->
+		
+		<!--start aection contact us-->
+		<section class="contact_us text-center">
+			<div class="cont_cover">
+				<div class="container">
+					<i class="fas fa-headphones-alt fa-5x"></i>
+					<h2>Tell Us What U Fell</h2>
+					<p class="lead">Fell Free To Contact Us Anytime</p>
+					<div class="row">
+						<form role="form">
+							<div class="col-md-6  wow bounceInLeft" date-wow-duration="1s" data-wow-offset="300">
+								<div class="form-group">
+									<input type="text" class="form-control input-lg" placeholder="User Name">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-lg" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-lg" placeholder="Cell Phone">
+								</div>
+							</div>
+							<div class="col-md-6 wow bounceInRight" date-wow-duration="1s" data-wow-offset="300">
+								<div class="form-group">
+									<textarea class="form-control input-lg" placeholder="Your message"></textarea> 
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+								</div>
+							</div>
+						</form>	
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!--end section contact us-->
+		
+		<!--start section our clients-->
+		<section class="our_clients">
+			<div class="container">
+				<div class="row">
+					<ul class="list-unstyled">
+						<li class="col-md-2 col-xs-4">
+							<img  class="img-responsive center-block wow bounceIn" src="images/avatar128.png" date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="0.5s">
+						</li>
+						<li class="col-md-2 col-xs-4">
+							<img class="img-responsive center-block wow bounceIn" src="images/bbc-company-brand-logo-3768e8b50610ec14-128x128.png" date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="1s">
+						</li>
+						<li class="col-md-2 col-xs-4">
+							<img class="img-responsive center-block wow bounceIn" src="images/download%20(1).png"date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="1.5s">
+						</li>
+						<li class="col-md-2 col-xs-4">
+							<img class=" center-block wow bounceIn" src="images/download%20(2).png" date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="2s">
+						</li>
+						<li class="col-md-2 col-xs-4">
+							<img class=" center-block wow bounceIn" src="images/images%20(1).png" date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="2.5s">
+						</li>
+						<li class="col-md-2 col-xs-4">
+							<img class="center-block wow bounceIn" src="images/stapler-mbpy5e.jpg" date-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="3s">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--end section our clients-->
+		
+		<!--start section footer-->
+	
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h3>Sitemap</h3>
+						<ul class="list-unstyled three">
+							<li>Home</li>
+							<li>About</li>
+							<li>Company</li>
+							<li>Code</li>
+							<li>Desgin</li>
+							<li>Host</li>
+							<li>Solutions</li>
+							<li>Sitemab</li>
+							<li>Contact</li>
+						</ul>
+						<ul class="list-unstyled all">
+							<li><img src="images/icons/icon.png" alt="error"></li>
+							<li><img src="images/icons/download%20(1).png" alt="error"></li>
+							<li><img src="images/icons/images.jpg" alt="error"></li>
+							<li><img src="images/icons/dhimg-twitter.png" alt="error"></li>
+							<li><img src="images/icons/3069.jpeg" alt="error"></li>
+							<li><img src="images/icons/unnamed.png" alt="error"></li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<h3>Latest Articles</h3>
+						<div class="media"> <!--media object in bootstrap-->
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" src="images/icons/imgingest-6337833196706976290.png" alt="...">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading">Programing</h4>
+								This Is Some Text About Programming Describe The Media Of Bootstrap 3
+							  </div>
+						<div class="media"> <!--media object in bootstrap-->
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" src="images/icons/download.jpg" alt="...">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading">Coding</h4>
+								This Is Some Text About Coding Describe The Media Of Bootstrap 3
+							  </div>
+						</div>
+						<div class="media"> <!--media object in bootstrap-->
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" src="images/icons/imgingest-3308439121400801246.png" alt="...">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading">Web Design</h4>
+								This Is Some Text About Web Design Describe The Media Of Bootstrap 3
+							  </div>
+						</div>
+					</div>
+					</div>
+					<div class="col-lg-4 end">
+						<h3>Our Awesome Work</h3>
+						<img src="images/icons/images%20(2).jpg" class="img-thumbnail">
+						<img src="images/icons/images%20(3).jpg" class="img-thumbnail">
+						<img src="images/icons/images%20(4).jpg" class="img-thumbnail">
+						<img src="images/icons/images%20(5).jpg" class="img-thumbnail">
+					</div>					
+				</div>
+			</div>
+			<div class="copy text-center">Copyright@2018 <span>Your Templet Name</span>.inc</div>
+		</section>
+		<!--End section footer-->
+		
+		<!-- start section scroll-top-->
+		<section class="scroll-top">
+			<div class="scrolled">
+				<i class="fa fa-chevron-up fa-2x"></i>
+			</div>
+		</section>
+		<!-- end section scroll-top-->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap3.js"></script>
+		<script src="js/wow.min.js"></script><!--for wow animate-->
+		<script>new WOW().init();</script>
+	</body>
+</html>
